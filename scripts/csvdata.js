@@ -18,7 +18,7 @@ let aggregate = function (arr) {
       };
     }
     if (result[val]) result[val].value++;
-    else result[val] = { zip: val, value: 1, fips:zip2fips[val] };
+    else result[val] = { value: 1, fips:val, };
     return result;
   }, {});
   return [...data];
@@ -33,7 +33,7 @@ fs.readFileAsync(path.join(__dirname, '../lib/csvs/ny.csv'))
       throw err;
     }
     else{
-      let zipArray = (csvjson.map((item)=>item['10001']));
+      let zipArray = (csvjson.map((item)=>zip2fips[item['10001']]));
       let outputFilePath = path.join(__dirname, 'nycsv.json');
       return fs.outputJsonAsync(outputFilePath, aggregate(zipArray));//);
       /*
