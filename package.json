@@ -1,0 +1,64 @@
+{
+  "name": "campaign_map",
+  "version": "1.0.0",
+  "description": "campaign map by county",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typesettin/campaign_map.git"
+  },
+  "author": "yaw joseph etse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typesettin/campaign_map/issues"
+  },
+  "homepage": "https://github.com/typesettin/campaign_map#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.13.0",
+    "fbemitter": "^2.0.2",
+    "finalhandler": "^0.5.0",
+    "flux": "^2.1.1",
+    "fs-extra": "^0.30.0",
+    "highcharts": "^5.0.2",
+    "json-2-csv": "^2.1.0",
+    "promisie": "^1.4.6",
+    "react": "^15.3.1",
+    "react-addons-css-transition-group": "^15.3.1",
+    "react-addons-update": "^15.3.1",
+    "react-dnd": "^2.1.4",
+    "react-dnd-html5-backend": "^2.1.2",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.7.0",
+    "redux": "^3.5.2",
+    "serve-static": "^1.11.1",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-jsx": "0.0.2",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-react": "^6.1.2",
+    "eslint-plugin-standard": "^2.0.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-newer": "^1.2.0",
+    "mocha": "^3.0.2",
+    "uglify-js": "^2.7.3",
+    "uglifyify": "^3.0.2"
+  }
+}
