@@ -8,8 +8,8 @@ import ReactDOM from 'react-dom';
 window.addEventListener('load', (e)=>{
   // console.log('windowloaded');
 
-  var countiesMap = window.Highcharts.geojson(window.Highcharts.maps['countries/us/us-all-all']),
-    lines = window.Highcharts.geojson(window.Highcharts.maps['countries/us/us-all-all'], 'mapline'),
+  var countiesMap = window.Highcharts.geojson(window.Highcharts.maps['countries/us/us-all-all-highres']),
+    lines = window.Highcharts.geojson(window.Highcharts.maps['countries/us/us-all-all-highres'], 'mapline'),
     options;
 
   // Add state acronym for tooltip
